@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 105px;
+    z-index: 23;
+}
+#ed, #ex, #cl, #sskills, #exp, #co{
+    font-size: 28px;
+    color: rgb(24, 33, 83);
+    font-family: "Wix Madefor Display", sans-serif;
+    height: 85px;
+    padding-top: 50px;
+
+}
+ul {
+    list-style: none;
+}
+
+.headsol {
+    padding-top: 31px;
+    font-family: "Wix Madefor Display", sans-serif;
+}
+
+.headsag {
+    width: 50%;
+}
+
+.headsag>ul {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 42px;
+}
+
+h1>a {
+    font-family: "Wix Madefor Display", sans-serif;
+    color: rgb(24, 33, 83);
+    font-size: 40px;
+}
+
+#hash,
+#hasdord {
+    font-family: "Wix Madefor Display", sans-serif;
+    color: rgb(24, 33, 83);
+    font-size: 30px;
+}
+
+h1>a {
+    text-decoration: none;
+
+}
+
+a:active {
+    color: rgb(24, 33, 83);
+}
+
+.headsag>ul>li>a {
+    text-decoration: none;
+    color: rgb(24, 33, 83);
+    font-family: "Wix Madefor Display", sans-serif;
+}
+
+.mavi {
+    width: 100%;
+    height: 750px;
+    background-image: url(./istockphoto-1162898563-170667a.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.maviuzluk {
+    background-color: rgba(34, 44, 102, 0.6);
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sekil {
+    display: flex;
+    background-color: white;
+    height: 450px;
+    width: 60%;
+    margin-bottom: 9px;
+
+}
+
+.sekilsol {
+    width: 50%;
+    height: 100%;
+    background-image: url(./23e8ad88ae744df0bd7f5221f3d67b0e.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sekilsoluzluk {
+    background-color: rgba(98, 98, 98, 0.5);
+}
+
+p,
+h2 {
+    font-family: "Wix Madefor Display", sans-serif;
+    color: rgb(24, 33, 83);
+}
+
+.sekilsag>p {
+    font-size: 13px;
+}
+
+.sekilsag>h2 {
+    font-size: 15px;
+}
+
+.datalar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 40px 0 40px 70px;
+}
+
+.boz {
+    background-color: rgb(241, 241, 241);
+    height: 670px;
+    text-align: center;
+    padding: 0 400px;
+}
+
+.goyikon {
+    margin: 0 auto;
+    width: 60%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 33, 83);
+    margin-bottom: 130px;
+}
+
+i {
+    color: white;
+    margin: 30px 20px;
+    font-size: 20px;
+}
+
+.boz>p {
+
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+}
+
+h3 {
+    height: 105px;
+    text-align: center;
+    border-bottom: 2px solid rgb(241, 241, 241);
+    border-top: 2px solid rgb(241, 241, 241);
+    padding-top: 31px;
+    font-family: "Wix Madefor Display", sans-serif;
+}
+
+.exp,
+.edu {
+    padding-top: 60px;
+}
+
+.exp1,
+.exp2,
+.exp3,
+.edu1,
+.edu2,
+.edu3 {
+    display: flex;
+    justify-content: center;
+}
+
+.psol {
+    text-align: right;
+    border-right: 2px solid rgb(241, 241, 241);
+    width: 50%;
+    padding-right: 60px;
+}
+
+.psag {
+    padding-right: 200px;
+    width: 50%;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.bir,
+.iki {
+    padding-bottom: 60px;
+}
+
+.uc {
+    margin-bottom: 60px;
+}
+
+.psol,
+.psag>span {
+    letter-spacing: 3px;
+}
+
+.psol>span {
+    font-weight: bolder;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.imgs>img {
+    margin: 70px 50px;
+}
+
+#sskills {
+    color: white;
+    background-color: rgb(24, 33, 83);
+    height: 105px;
+    padding-top: 37px;
+    border-bottom: 2px solid white;
+}
+
+.mavi2 {
+    background-image: url(./fforskills.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 450px;
+    padding: 40px 0;
+}
+
+.seffaf {
+    height: 90px;
+    width: 370px;
+    color: white;
+    background-color: rgba(88, 97, 147, 0.812);
+    text-align: center;
+    padding-top: 37px;
+    margin: 0 37px;
+}
+
+.skil1,
+.skil2,
+.skil3 {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+}
+
+.exper {
+    display: flex;
+    justify-content: center;
+}
+
+.experler {
+    height: 170px;
+    width: 300px;
+    margin: 40px;
+    margin-bottom: 130px;
+}
+
+.experler>p>span {
+    font-weight: bolder;
+}
+
+#co {
+    background-color: rgb(241, 241, 241);
+    color: rgb(24, 33, 83);
+    border-bottom: 2px solid white;
+}
+
+.contact {
+    display: flex;
+}
+
+.consol {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    padding-top: 60px;
+    align-items: flex-end;
+    padding-right: 60px;
+}
+
+.consag {
+    width: 50%;
+    border-left: 2px solid white;
+    background-color: rgb(241, 241, 241);
+    padding-top: 52px;
+    padding-left: 60px;
+}
+
+hr {
+    margin-top: 60px;
+    width: 250px;
+}
+
+.mesafe {
+    margin-bottom: 30px;
+}
+
+.names {
+    display: flex;
+}
+
+.name,
+.surname,
+.mail,
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: rgb(98, 98, 98);
+    margin-bottom: 10px;
+}
+
+.mail>input {
+    width: 351px;
+}
+
+.name>input {
+    margin-right: 20px;
+}
+
+input {
+    height: 34px;
+}
+
+textarea {
+    width: 351px;
+    border: 3px solid black;
+}
+
+button {
+    border: none;
+    background-color: rgb(24, 33, 83);
+    color: white;
+    width: 351px;
+    height: 34px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+
+.consag>i {
+    font-size: 20px;
+    color: rgb(24, 33, 83);
+}
+
+.consag>a {
+    text-decoration: none;
+    color: rgb(24, 33, 83);
+
+}
+
+.dip {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    height: 60px;
+    width: 180px;
+    position: fixed;
+    background-color: rgb(69, 80, 142);
+
+}
+
+.dip>i {
+    font-size: 15px;
+    border: 1px solid black;
+}
